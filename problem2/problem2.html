@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Problem 2</title>
+
+	<!-- This line of code imports in a style sheet with some basic styles I've created for you, it should not be changed. -->
+	<link rel="stylesheet" type="text/css" href="../assets/general_style.css">
+
+	<!-- The only part of this file you should edit is the text between the style tags below. -->
+	<style type="text/css">
+		.container { display: grid;
+			grid-template-columns:1fr 1fr 1fr;
+		grid-template-rows:1fr 1fr;
+		grid-template-areas:
+			"B G R"
+			"Y P O";}
+			#blue{
+				grid-area:B;
+			}
+			#green{
+				grid-area:G;
+			}
+			#red{
+				grid-area:R;
+			}
+			#yellow{
+				grid-area:Y;
+			}
+			#purple{
+				grid-area:P;
+			}
+			#orange{
+				grid-area:O;
+			}
+
+	</style>
+
+	<!-- Do NOT edit any code below this line. -->
+</head>
+<body>
+	<div class="container">
+		<div id="blue" class="items">
+			🐻
+		</div>
+
+		<div id="green" class="items">
+			🎸
+		</div>
+
+		<div id="red" class="items">
+			🚀
+		</div>
+
+		<div id="purple" class="items">
+			💩
+		</div>
+
+		<div id="yellow" class="items">
+			☯️
+		</div>
+
+		<div id="orange" class="items">
+			🐙
+		</div>
+	</div>
+</body>
+</html>
